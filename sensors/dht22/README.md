@@ -8,6 +8,8 @@ These sensors are very basic and slow, but are great for hobbyists who want to d
 
 - Temperature (in Celsius)
 - Humidity (in percent)
+- Computed:
+  - Heat index (see [Wikipedia](https://en.wikipedia.org/wiki/Heat_index))
 
 
 ## Schematics
@@ -23,7 +25,8 @@ These sensors are very basic and slow, but are great for hobbyists who want to d
 
 ## Libraries
 
-- [Adafruit's DHT sensor library](https://github.com/adafruit/DHT-sensor-library)
+- [Adafruit DHT sensor library](https://github.com/adafruit/DHT-sensor-library)
+  - Requirements: [Adafruit Unified Sensor Library](https://github.com/adafruit/Adafruit_Sensor)
 
 
 ## Specifications

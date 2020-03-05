@@ -60,13 +60,17 @@ void loop() {
 
 /**
  * Logs the measures on the serial port.
+ *
+ * Heat index: https://en.wikipedia.org/wiki/Heat_index
  */
 void logMeasures(float temperature, float humidity) {
   Serial.print(F("[DHT-22] Temperature: "));
   safePrintValue(temperature);
   Serial.print(F("°C, Humidity: "));
   safePrintValue(humidity);
-  Serial.println(F("%."));
+  Serial.print(F("%, Heat Index: "));
+  safePrintValue(dht.computeHeatIndex(temperature, humidity, false));
+  Serial.println(F("°C."));
 }
 
 
