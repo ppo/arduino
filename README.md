@@ -1,5 +1,12 @@
 # Arduino
 
+## Code in this Repo
+
+### Sensors
+
+- [DHT-22](sensors/dht22) (temperature & humidity)
+
+
 ## Arduino Docs
 
 - [Getting started](https://www.arduino.cc/en/Guide/HomePage)
