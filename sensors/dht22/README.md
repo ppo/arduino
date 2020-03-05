@@ -10,6 +10,22 @@ These sensors are very basic and slow, but are great for hobbyists who want to d
 - Humidity (in percent)
 
 
+## Schematics
+
+![DHT-22 Schema](assets/dht22-schema.png)
+
+
+### Parts
+
+- A **10KΩ resistor** _can be_ placed between VCC and data pin to act as a medium-strength pull up on the data line. The Arduino has built in pullups you can turn on but they're very weak, about 20-50K. DHT-22 often have a pullup already inside, but it doesn't hurt to add another one!
+- A **100nF capacitor** _can be_ added between VCC and ground for wave filtering.
+
+
+## Libraries
+
+- [Adafruit's DHT sensor library](https://github.com/adafruit/DHT-sensor-library)
+
+
 ## Specifications
 
 - Power supply: 3.3–6V DC
@@ -44,24 +60,6 @@ It has four pins (from left to right):
 2. Data out (white or yellow wire) – Connect to a digital pin.
 3. _Not connected_
 4. Ground (black wire)
-
-
-## Schematics
-
-![DHT-22 Schema](assets/dht22-schema.png)
-
-
-## Related Information
-
-### Libraries
-
-- [Adafruit's DHT sensor library](https://github.com/adafruit/DHT-sensor-library)
-
-
-### Parts
-
-- A **10KΩ resistor** can be placed between VCC and data pin to act as a medium-strength pull up on the data line. The Arduino has built in pullups you can turn on but they're very weak, about 20-50K. DHT-22 often have a pullup already inside, but it doesn't hurt to add another one!
-- A **100nF capacitor** can be added between VCC and ground for wave filtering.
 
 
 ## Tutorials
