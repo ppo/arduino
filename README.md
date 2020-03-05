@@ -3,6 +3,9 @@
 ## Arduino Docs
 
 - [Getting started](https://www.arduino.cc/en/Guide/HomePage)
-- [Arduino IDE](https://www.arduino.cc/en/Main/Software)
-  - [Installing additional libraries](https://www.arduino.cc/en/Guide/Libraries)
-  - [Installing additional cores](https://www.arduino.cc/en/Guide/Cores)
+- [Arduino Foundations](https://www.arduino.cc/en/Tutorial/Foundations) (principles and techniques behind the Arduino platform)
+  - [Language Reference](https://www.arduino.cc/reference/en/)
+- [Software Download](https://www.arduino.cc/en/Main/Software)
+  - [Arduino Software (IDE)](https://www.arduino.cc/en/Guide/Environment)
+  - [Libraries](https://www.arduino.cc/en/Guide/Libraries)
+  - [Cores](https://www.arduino.cc/en/Guide/Cores)
